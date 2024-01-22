@@ -1,0 +1,69 @@
+body {
+  background-color: #a40031;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 0; /* Removes padding inside the header */
+  margin: 0; /* Removes margin for the header */
+}
+
+header img {
+  width: 100px; /* Default width */
+  height: auto;
+  display: block;
+  margin-left: 0; /* Aligns the image to the left */
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  header img {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header img {
+    width: 130px;
+  }
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.category-item {
+  background-color: #a40031; /* The brown background color */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  text-align: center;
+  color: white; /* Text color */
+  overflow: hidden; /* Ensures the image doesn't overflow the rounded corners */
+  display: block; /* Add this if your layout breaks */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.category-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.category-item h2 {
+  margin: 0;
+  padding: 15px 0; /* Spacing above and below the text */
+  background-color: #c82333; /* Red background for text */
+  border-radius: 0 0 20px 20px; /* Rounded corners at the bottom */
+}
