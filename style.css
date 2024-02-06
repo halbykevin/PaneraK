@@ -21,7 +21,7 @@ header img {
 }
 
 footer {
-  background-color: black;
+  background-color: #840031;
   color: white;
   padding: 100px;
   text-align: center;
@@ -138,4 +138,35 @@ input:checked + .slider:before {
 /* Making the slider round */
 .slider.round {
   border-radius: 24px;
+}
+
+footer {
+  background-color: #840031; /* Adjust to the color seen in the image */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items in the middle vertically */
+  padding: 20px; /* Adjust padding as needed */
+  position: relative; /* Allows absolute positioning inside */
+}
+
+.footer-text {
+  text-align: left; /* Align text to the left */
+  max-width: 50%; /* Limit the width of the text container */
+}
+
+.footer-text p {
+  margin: 5px 0; /* Spacing between each line */
+  line-height: 1.5; /* Spacing between lines of text */
+}
+
+.footer-logo {
+  position: absolute; /* Position the logo absolutely to stick to the bottom right */
+  bottom: 10px; /* Distance from bottom */
+  right: 10px; /* Distance from right */
+}
+
+.footer-logo img {
+  width: auto; /* Maintain the aspect ratio */
+  height: 160px; /* Adjust the height to control the size of the logo */
 }
