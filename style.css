@@ -120,7 +120,7 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #840031;
 }
 
 input:checked + .slider:before {
