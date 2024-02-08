@@ -174,6 +174,7 @@ footer {
 
 .menu-container {
   padding: 20px;
+  position: relative; /* Needed for absolute positioning of children */
 }
 
 .menu-title {
@@ -181,6 +182,9 @@ footer {
   font-size: 2.5em; /* Adjust the size as needed */
   text-align: center; /* Centered title */
   margin-bottom: 0.7em;
+  padding-top: 50px; /* Add padding to the top of the title to make space for the back button */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-item {
@@ -225,12 +229,27 @@ footer {
 
 .menu-container-any {
   padding: 20px;
+  position: relative; /* Needed for absolute positioning of children */
+}
+
+.back-button {
+  position: absolute; /* Absolute position within the relative container */
+  top: 0; /* Align to the top of the container */
+  left: 0; /* Align to the left of the container */
+  font-size: 1em; /* Adjust to match your design */
+  text-decoration: none; /* Removes the underline from the link */
+  color: white; /* Adjust the color to match your design */
+  padding: 20px; /* Add padding to move the text inside from the edges */
+  z-index: 10; /* Ensure the back button is above other elements */
 }
 
 .menu-title-any {
   font-size: 2.5em; /* Adjust the size as needed */
   text-align: center;
   margin-top: 0em;
+  padding-top: 50px; /* Add padding to the top of the title to make space for the back button */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-item-any {
