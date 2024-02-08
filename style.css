@@ -1,9 +1,10 @@
 body {
-  background-color: #a40031;
+  background-color: #a40031; /* Your background color */
+  color: white; /* Your text color */
+  font-family: Arial, sans-serif; /* Your font */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
 header {
@@ -169,4 +170,96 @@ footer {
 .footer-logo img {
   width: auto; /* Maintain the aspect ratio */
   height: 160px; /* Adjust the height to control the size of the logo */
+}
+
+.menu-container {
+  padding: 20px;
+}
+
+.menu-title {
+  margin-top: 0em;
+  font-size: 2.5em; /* Adjust the size as needed */
+  text-align: center; /* Centered title */
+  margin-bottom: 0.7em;
+}
+
+.menu-item {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack flex items vertically */
+  align-items: flex-start; /* Align items to the start (left) */
+  border-bottom: 2px solid white; /* Your border color */
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.item-name {
+  margin-top: 0em;
+  font-size: 1.5em; /* Adjust the size as needed */
+  color: #fff; /* Your text color */
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Take the full width of the container */
+  margin-bottom: 0em; /* Space below the item name */
+}
+
+.item-description {
+  font-size: 1em; /* Adjust the size as needed */
+  text-align: left; /* Align text to the left */
+  margin: 0.5em 0;
+}
+
+.item-prices {
+  display: flex; /* Align price options horizontally */
+  justify-content: center; /* Center the prices */
+  width: 100%; /* Take the full width to allow centering */
+}
+
+.item-prices span {
+  margin-right: 15px; /* Spacing between price options */
+  font-size: 1.2em; /* Adjust the size as needed */
+  /* Remove the margin from the last child to avoid unnecessary spacing */
+}
+
+.item-prices span:last-child {
+  margin-right: 0;
+}
+
+.menu-container-any {
+  padding: 20px;
+}
+
+.menu-title-any {
+  font-size: 2.5em; /* Adjust the size as needed */
+  text-align: center;
+  margin-top: 0em;
+}
+
+.menu-item-any {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items in the center of the flex-direction */
+  border-bottom: 2px solid white; /* Adjust color as needed */
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.item-content-any {
+  text-align: left;
+  flex-grow: 1; /* Allows the content to grow and fill the space */
+}
+
+.item-name-any {
+  font-size: 1.5em; /* Adjust as needed */
+  margin: 0; /* Remove margin for alignment */
+  display: block; /* Ensures that the item name takes up the full width */
+}
+
+.item-description-any {
+  font-size: 1em; /* Adjust as needed */
+  margin: 0; /* Remove margin for alignment */
+}
+
+.item-price-any {
+  font-size: 1.5em; /* Adjust as needed */
+  min-width: 50px; /* Ensures that the price block does not shrink too much */
+  text-align: right; /* Align the price text to the right */
 }
