@@ -45,6 +45,7 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   padding: 10px;
+  padding-bottom: 355px;
 }
 
 .category-item {
