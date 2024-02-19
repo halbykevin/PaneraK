@@ -283,3 +283,38 @@ footer {
   min-width: 50px; /* Ensures that the price block does not shrink too much */
   text-align: right; /* Align the price text to the right */
 }
+
+.order-now-btn {
+  display: block; /* Makes it a block element */
+  margin-top: 0px; /* Decrease this value to move the button up towards the category items */
+  margin-bottom: 20px; /* Keeps existing space below the button, adjust if necessary */
+  margin-left: auto; /* Centers the button horizontally */
+  margin-right: auto; /* Centers the button horizontally */
+  padding: 10px 30px; /* Padding for button size */
+  background-color: #840031; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.5em; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-decoration: none; /* No underline for text */
+  font-weight: bold; /* Bold font weight */
+  transition: background-color 0.3s; /* Color transition on hover */
+}
+
+.order-now-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Container for categories and the button */
+
+
+/* Additional style for the categories if needed to keep space at the bottom */
+.category-item:last-child {
+  margin-bottom: 10px; /* Adjust this value to control the space after the last category item */
+}
+
+.order-now-btn:hover {
+  background-color: #8400305a; /* Darker shade on hover */
+}
