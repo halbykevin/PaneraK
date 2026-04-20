@@ -1,0 +1,478 @@
+{
+  "en": {
+    "nav": {
+      "lent": "Lent",
+      "burgers": "Burgers",
+      "sandwiches": "Sandwiches",
+      "pizza": "Pizza",
+      "platters": "Platters",
+      "biAajine": "Bl Aajine",
+      "sidesandbeverages": "Sides and beverages",
+      "tobacco": "Arguile"
+    },
+    "footer": {
+      "address": "Address:",
+      "location": "Kferdlaqos, Zgharta",
+      "tel": "Tel:",
+      "phone1": "06 667 997",
+      "phone2": "70 551 751"
+    },
+    "buttons": {
+      "orderNow": "Order Now",
+      "back": "← Back"
+    },
+    "lent": {
+      "title": "L E N T",
+      "items": [
+        {
+          "name": "Samki harra",
+          "desc": "",
+          "price": "$5"
+        },
+        {
+          "name": "Fish burger",
+          "desc": "",
+          "price": "$5"
+        },
+        {
+          "name": "Platter fish crispy",
+          "desc": "",
+          "price": "$9"
+        },
+        {
+          "name": "Tuna fish",
+          "desc": "",
+          "price": "$5.5"
+        },
+        {
+          "name": "Tuna pizza",
+          "desc": "",
+          "prices": ["S: $7", "M: $9", "L: $13"]
+        }
+      ]
+    },
+    "burgers": {
+      "title": "B U R G E R S",
+      "items": [
+        {
+          "name": "HAMBURGER",
+          "desc": "beef, lettuce, tomato, onion, sauce.",
+          "price": "$4"
+        },
+        {
+          "name": "CHEESE BURGER",
+          "desc": "beef, cheese, lettuce, tomato, onion, sauce.",
+          "price": "$4.5"
+        },
+        {
+          "name": "ROMAN BURGER",
+          "desc": "beef, cheese, jambon, salami, lettuce, tomato, onion, sauce.",
+          "price": "$5.5"
+        },
+        {
+          "name": "CHICKEN BURGER",
+          "desc": "Chicken, lettuce, pickles, sauce.",
+          "price": "$4"
+        },
+        {
+          "name": "CRISPY CHICKEN BURGER",
+          "desc": "Crispy, cheese, lettuce, pickles, mayonnaise.",
+          "price": "$5.5"
+        }
+      ]
+    },
+    "sandwiches": {
+      "title": "S A N D W I C H E S",
+      "items": [
+        {
+          "name": "PHILADELPHIA",
+          "desc": "chicken, cheese, mushroom, pepper, onion, mayonnaise.",
+          "price": "$6"
+        },
+        {
+          "name": "STEAK",
+          "desc": "beef, cheese, mushroom, pepper, onion.",
+          "price": "$7"
+        },
+        {
+          "name": "CHICKEN SUB",
+          "desc": "crispy chicken, cheese, mayonnaise, corn, lettuce.",
+          "price": "$7"
+        },
+        {
+          "name": "TAOUK",
+          "desc": "taouk, coleslaw, pickles, garlic.",
+          "price": "$5.5"
+        },
+        {
+          "name": "SUBMARINE",
+          "desc": "cheese, jambon, salami, tomato, lettuce, mayonnaise.",
+          "price": "$5.5"
+        }
+      ]
+    },
+    "pizza": {
+      "title": "P I Z Z A",
+      "items": [
+        {
+          "name": "PANERA PIZZA",
+          "desc": "cheese, jambon, mushroom, olive, pepper, salami, sauce.",
+          "prices": ["S: $7.5", "M: $10", "L: $15"]
+        },
+        {
+          "name": "SUPREME PIZZA",
+          "desc": "Cheese, jambon, peperoni, mushroom, olive, peper, sauce.",
+          "prices": ["S: $9", "M: $12", "L: $18"]
+        },
+        {
+          "name": "VEGETARIAN",
+          "desc": "cheese, mushroom, olive, pepper, tomato, sauce.",
+          "prices": ["S: $7.5", "M: $10", "L: $15"]
+        },
+        {
+          "name": "PEPERONI",
+          "desc": "Cheese, peperoni, sauce.",
+          "prices": ["S: $8.5", "M: $11.5", "L: $17"]
+        },
+        {
+          "name": "BARBECUE CHICKEN",
+          "desc": "Chicken, cheese, barbecue sauce.",
+          "prices": ["S: $8.5", "M: $11.5", "L: $17"]
+        },
+        {
+          "name": "SUPREME",
+          "desc": "Cheese, jambon, peperoni, mushroom, olive, peper, sauce.",
+          "prices": ["S: $9", "M: $12", "L: $18"]
+        }
+      ]
+    },
+    "platters": {
+      "title": "P L A T T E R S",
+      "items": [
+        {
+          "name": "TAOUK PLATTER",
+          "desc": "taouk, lettuce, tomato, pickles, garlic, fries",
+          "price": "$9"
+        },
+        {
+          "name": "CORDON BLEU",
+          "desc": "Chicken piece, coleslaw, sauce, fries.",
+          "price": "$10"
+        },
+        {
+          "name": "HAMBURGER PLATTER",
+          "desc": "2 Beef pieces, coleslaw, sauce, fries.",
+          "price": "$9"
+        },
+        {
+          "name": "CHICKEN BURGER PLATTER",
+          "desc": "2 chicken pieces, coleslaw, sauce, fries.",
+          "price": "$9"
+        },
+        {
+          "name": "CRISPY PLATTER",
+          "desc": "Crispy chicken, coleslaw, garlic, fries.",
+          "price": "$10"
+        }
+      ]
+    },
+    "biAajine": {
+      "title": "B L   A J I N E",
+      "items": [
+        {
+          "name": "EUGENE",
+          "desc": "Chicken, cheese, lettuce, tomato, mayonnaise.",
+          "price": "$9"
+        },
+        {
+          "name": "TAOUK",
+          "desc": "chicken, coleslaw, lettuce, fries, pickles, garlic.",
+          "price": "$9"
+        },
+        {
+          "name": "PHILADELPHIA",
+          "desc": "chicken, cheese, onion, pepper, mayonnaise.",
+          "price": "$9"
+        },
+        {
+          "name": "STEAK",
+          "desc": "beef, cheese, pepper, mushroom, mayonnaise.",
+          "price": "$9"
+        },
+        {
+          "name": "CRISPY SUBMARINE",
+          "desc": "Crispy, cheese, jambon, salami, lettuce, tomato, mayonnaise.",
+          "price": "$10"
+        },
+        {
+          "name": "SUBMARINE",
+          "desc": "cheese, jambon, salami, tomato, lettuce, mayonnaise.",
+          "price": "$9"
+        }
+      ]
+    },
+    "sidesandbeverages": {
+      "title": "Sides and beverages",
+      "items": [
+        {
+          "name": "Fries",
+          "desc": "",
+          "price": "$3"
+        }
+      ]
+    },
+    "tobacco": {
+      "title": "T O B A C C O",
+      "items": [
+        {
+          "name": "Teffe7ten",
+          "desc": "",
+          "price": "$6"
+        },
+        {
+          "name": "Hamoud w Na3na3",
+          "desc": "",
+          "price": "$5"
+        }
+      ]
+    }
+  },
+  "ar": {
+    "nav": {
+      "lent": "صيامي",
+      "burgers": "برغر",
+      "sandwiches": "السندويتشات",
+      "pizza": "البيتزا",
+      "platters": "اطباق",
+      "biAajine": "في العجين",
+      "sidesandbeverages": "الأطباق الجانبية والمشروبات",
+      "tobacco": "شيشة"
+    },
+    "footer": {
+      "address": "عنوان",
+      "location": "قفردلاكس , زغرتا",
+      "tel": "رقم",
+      "phone1": "06 667 997",
+      "phone2": "70 551 751"
+    },
+    "buttons": {
+      "orderNow": "اطلب الان",
+      "back": "← Back"
+    },
+    "lent": {
+      "title": "صيامي",
+      "items": [
+        {
+          "name": "سمكة حرة",
+          "desc": "",
+          "price": "$5"
+        },
+        {
+          "name": "فيش برغر",
+          "desc": "",
+          "price": "$5"
+        },
+        {
+          "name": "بلاتر سمك كريسبي",
+          "desc": "",
+          "price": "$9"
+        },
+        {
+          "name": "تونا فيش",
+          "desc": "",
+          "price": "$5.5"
+        },
+        {
+          "name": "تونا بيتزا",
+          "desc": "",
+          "prices": ["S: $7", "M: $9", "L: $13"]
+        }
+      ]
+    },
+    "burgers": {
+      "title": "البرغر",
+      "items": [
+        {
+          "name": "هامبرغر",
+          "desc": "لحم  خس، طماطم، بصلة، صلصة.",
+          "price": "$4"
+        },
+        {
+          "name": "تشيز برجر",
+          "desc": "لحم  جبن، خس، طماطم، بصل، صلصة.",
+          "price": "$4.5"
+        },
+        {
+          "name": "رومان برجر",
+          "desc": "لحم  ، جبنة ، جامبون ، سلامي ، خس ، طماطم ، بصل ، صلصة.",
+          "price": "$5.5"
+        },
+        {
+          "name": "برجر الدجاج",
+          "desc": "دجاج ، خس ، مخلل ، صلصة.",
+          "price": "$4"
+        },
+        {
+          "name": "كرسبي تشيكن برجر",
+          "desc": "مقرمش ، جبنة ، خس ، مخلل ، مايونيز.",
+          "price": "$5.5"
+        }
+      ]
+    },
+    "sandwiches": {
+      "title": "السندويتشات",
+      "items": [
+        {
+          "name": "فيلادلفيا",
+          "desc": "دجاج، جبن، مشروم، فلفل، بصل، مايونيز.",
+          "price": "$6"
+        },
+        {
+          "name": "شريحة اللحمة",
+          "desc": "لحم بقري ، جبنة ، فطر ، فلفل ، بصل.",
+          "price": "$7"
+        },
+        {
+          "name": "دجاج صب",
+          "desc": "دجاج مقرمش، جبن، مايونيز، ذرة، خس.",
+          "price": "$7"
+        },
+        {
+          "name": "طاووق",
+          "desc": "طاووق ، سلطة كول سلو ، مخلل ، ثوم.",
+          "price": "$5.5"
+        },
+        {
+          "name": "سابمرين",
+          "desc": "جبن، جامبون، سلامي، طماطم، خس، مايونيز.",
+          "price": "$5.5"
+        }
+      ]
+    },
+    "pizza": {
+      "title": "البيتزا",
+      "items": [
+        {
+          "name": "بيتزا بانيرا",
+          "desc": "جبنة ، جامبون ، فطر ، زيتون ، فلفل ، سلامي ، صلصة.",
+          "prices": ["S: $7.5", "M: $10", "L: $15"]
+        },
+        {
+          "name": "سوبريم بيتزا",
+          "desc": "جبنة ، جامبون ، بيبيروني ، فطر ، زيتون ، بيبر ، صلصة.",
+          "prices": ["S: $9", "M: $12", "L: $18"]
+        },
+        {
+          "name": "نباتي",
+          "desc": "جبنة، مشروم، زيتون، فلفل، طماطم، صلصة.",
+          "prices": ["S: $7.5", "M: $10", "L: $15"]
+        },
+        {
+          "name": "بيبيروني",
+          "desc": "جبنة ، بيبيروني ، صلصة.",
+          "prices": ["S: $8.5", "M: $11.5", "L: $17"]
+        },
+        {
+          "name": "دجاج مشوي",
+          "desc": "دجاج ، جبنة ، صلصة باربيكيو.",
+          "prices": ["S: $8.5", "M: $11.5", "L: $17"]
+        },
+        {
+          "name": "العليا",
+          "desc": "جبنة ، جامبون ، بيبيروني ، فطر ، زيتون ، بيبر ، صلصة.",
+          "prices": ["S: $9", "M: $12", "L: $18"]
+        }
+      ]
+    },
+    "platters": {
+      "title": "طبق",
+      "items": [
+        {
+          "name": "طبق طاووق",
+          "desc": "طاووق، خس، طماطم، مخلل، ثوم، بطاطسs",
+          "price": "$9"
+        },
+        {
+          "name": "كوردون بلو",
+          "desc": "قطعة دجاج، سلطة كول سلو، صلصة، بطاطا مقلية.",
+          "price": "$10"
+        },
+        {
+          "name": "طبق همبرغر",
+          "desc": "2 قطع لحم بقري، سلطة كول سلو، صلصة، بطاطا مقلية.",
+          "price": "$9"
+        },
+        {
+          "name": "طبق برجر دجاج",
+          "desc": "2 قطعة دجاج، سلطة كول سلو، صلصة، بطاطا مقلية.",
+          "price": "$9"
+        },
+        {
+          "name": "طبق مقرمش",
+          "desc": "دجاج مقرمش، سلطة كول سلو، ثوم، بطاطا مقلية.",
+          "price": "$10"
+        }
+      ]
+    },
+    "biAajine": {
+      "title": "في العجين",
+      "items": [
+        {
+          "name": "يوجين",
+          "desc": "دجاج، جبن، خس، طماطم، مايونيز.",
+          "price": "$9"
+        },
+        {
+          "name": "طاوق",
+          "desc": "دجاج ، سلطة كول سلو ، خس ، بطاطس ، مخلل ، ثوم.",
+          "price": "$9"
+        },
+        {
+          "name": "فيلادلفيا",
+          "desc": "دجاج، جبن، بصل، فلفل، مايونيز.",
+          "price": "$9"
+        },
+        {
+          "name": "شريحة اللحمة",
+          "desc": "لحم بقري ، جبنة ، فلفل ، فطر ، مايونيز.",
+          "price": "$9"
+        },
+        {
+          "name": "سابمرين مقرمش",
+          "desc": "مقرمش ، جبنة ، جامبون ، سلامي ، خس ، طماطم ، مايونيز.",
+          "price": "$10"
+        },
+        {
+          "name": "سابمرين",
+          "desc": "جبنة ، جامبون ، سلامي ، طماطم ، خس ، مايونيز.",
+          "price": "$9"
+        }
+      ]
+    },
+    "sidesandbeverages": {
+      "title": "الأطباق الجانبية والمشروبات",
+      "items": [
+        {
+          "name": "البطاطا المقليه",
+          "desc": "",
+          "price": "$3"
+        }
+      ]
+    },
+    "tobacco": {
+      "title": "شيشة",
+      "items": [
+        {
+          "name": "تفاحتين",
+          "desc": "",
+          "price": "$6"
+        },
+        {
+          "name": "حامض و نعناع",
+          "desc": "",
+          "price": "$5"
+        }
+      ]
+    }
+  }
+}

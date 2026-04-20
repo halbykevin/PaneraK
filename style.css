@@ -1,0 +1,320 @@
+body {
+  background-color: #a40031; /* Your background color */
+  color: white; /* Your text color */
+  font-family: Arial, sans-serif; /* Your font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex; /* Use flexbox to layout header contents */
+  justify-content: space-between; /* Positions items on both ends */
+  align-items: center; /* Align items vertically */
+  padding: 10px;
+}
+
+header img {
+  width: 100px; /* Default width */
+  height: auto;
+  display: block;
+  margin-left: 0; /* Aligns the image to the left */
+}
+
+footer {
+  background-color: #840031;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  header img {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header img {
+    width: 130px;
+  }
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+  padding-bottom: 355px;
+}
+
+.category-item {
+  background-color: #a40031; /* The brown background color */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  text-align: center;
+  color: white; /* Text color */
+  overflow: hidden; /* Ensures the image doesn't overflow the rounded corners */
+  display: block; /* Add this if your layout breaks */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.category-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.category-item h2 {
+  margin: 0;
+  padding: 15px 0; /* Spacing above and below the text */
+  background-color: #a40031; /* Red background for text */
+  border-radius: 0 0 20px 20px; /* Rounded corners at the bottom */
+}
+
+/* Container for the entire language switcher */
+.language-switcher {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px; /* Width of the actual switch */
+  height: 24px; /* Height of the actual switch */
+  margin: 0 10px; /* Space between labels and switch */
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 24px; /* Full round edges */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #840031;
+}
+
+input:checked + .slider:before {
+  transform: translateX(
+    26px
+  ); /* Adjust the translate value to match the size of your switch */
+}
+
+/* Labels EN and AR */
+.label {
+  color: white; /* Text color */
+  font-family: sans-serif;
+}
+
+/* Making the slider round */
+.slider.round {
+  border-radius: 24px;
+}
+
+footer {
+  background-color: #840031; /* Adjust to the color seen in the image */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items in the middle vertically */
+  padding: 20px; /* Adjust padding as needed */
+  position: relative; /* Allows absolute positioning inside */
+}
+
+.footer-text {
+  text-align: left; /* Align text to the left */
+  max-width: 50%; /* Limit the width of the text container */
+}
+
+.footer-text p {
+  margin: 5px 0; /* Spacing between each line */
+  line-height: 1.5; /* Spacing between lines of text */
+}
+
+.footer-logo {
+  position: absolute; /* Position the logo absolutely to stick to the bottom right */
+  bottom: 10px; /* Distance from bottom */
+  right: 10px; /* Distance from right */
+}
+
+.footer-logo img {
+  width: auto; /* Maintain the aspect ratio */
+  height: 160px; /* Adjust the height to control the size of the logo */
+}
+
+.menu-container {
+  padding: 20px;
+  position: relative; /* Needed for absolute positioning of children */
+}
+
+.menu-title {
+  margin-top: 0em;
+  font-size: 2.5em; /* Adjust the size as needed */
+  text-align: center; /* Centered title */
+  margin-bottom: 0.7em;
+  padding-top: 50px; /* Add padding to the top of the title to make space for the back button */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-item {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack flex items vertically */
+  align-items: flex-start; /* Align items to the start (left) */
+  border-bottom: 2px solid white; /* Your border color */
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.item-name {
+  margin-top: 0em;
+  font-size: 1.5em; /* Adjust the size as needed */
+  color: #fff; /* Your text color */
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Take the full width of the container */
+  margin-bottom: 0em; /* Space below the item name */
+}
+
+.item-description {
+  font-size: 1em; /* Adjust the size as needed */
+  text-align: left; /* Align text to the left */
+  margin: 0.5em 0;
+}
+
+.item-prices {
+  display: flex; /* Align price options horizontally */
+  justify-content: center; /* Center the prices */
+  width: 100%; /* Take the full width to allow centering */
+}
+
+.item-prices span {
+  margin-right: 15px; /* Spacing between price options */
+  font-size: 1.2em; /* Adjust the size as needed */
+  /* Remove the margin from the last child to avoid unnecessary spacing */
+}
+
+.item-prices span:last-child {
+  margin-right: 0;
+}
+
+.menu-container-any {
+  padding: 20px;
+  position: relative; /* Needed for absolute positioning of children */
+}
+
+.back-button {
+  position: absolute; /* Absolute position within the relative container */
+  top: 0; /* Align to the top of the container */
+  left: 0; /* Align to the left of the container */
+  font-size: 1em; /* Adjust to match your design */
+  text-decoration: none; /* Removes the underline from the link */
+  color: white; /* Adjust the color to match your design */
+  padding: 20px; /* Add padding to move the text inside from the edges */
+  z-index: 10; /* Ensure the back button is above other elements */
+}
+
+.menu-title-any {
+  font-size: 2.5em; /* Adjust the size as needed */
+  text-align: center;
+  margin-top: 0em;
+  padding-top: 50px; /* Add padding to the top of the title to make space for the back button */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-item-any {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items in the center of the flex-direction */
+  border-bottom: 2px solid white; /* Adjust color as needed */
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.item-content-any {
+  text-align: left;
+  flex-grow: 1; /* Allows the content to grow and fill the space */
+}
+
+.item-name-any {
+  font-size: 1.5em; /* Adjust as needed */
+  margin: 0; /* Remove margin for alignment */
+  display: block; /* Ensures that the item name takes up the full width */
+}
+
+.item-description-any {
+  font-size: 1em; /* Adjust as needed */
+  margin: 0; /* Remove margin for alignment */
+}
+
+.item-price-any {
+  font-size: 1.5em; /* Adjust as needed */
+  min-width: 50px; /* Ensures that the price block does not shrink too much */
+  text-align: right; /* Align the price text to the right */
+}
+
+.order-now-btn {
+  display: block; /* Makes it a block element */
+  margin-top: 0px; /* Decrease this value to move the button up towards the category items */
+  margin-bottom: 20px; /* Keeps existing space below the button, adjust if necessary */
+  margin-left: auto; /* Centers the button horizontally */
+  margin-right: auto; /* Centers the button horizontally */
+  padding: 10px 30px; /* Padding for button size */
+  background-color: #840031; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.5em; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-decoration: none; /* No underline for text */
+  font-weight: bold; /* Bold font weight */
+  transition: background-color 0.3s; /* Color transition on hover */
+}
+
+.order-now-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Container for categories and the button */
+
+
+/* Additional style for the categories if needed to keep space at the bottom */
+.category-item:last-child {
+  margin-bottom: 10px; /* Adjust this value to control the space after the last category item */
+}
+
+.order-now-btn:hover {
+  background-color: #8400305a; /* Darker shade on hover */
+}

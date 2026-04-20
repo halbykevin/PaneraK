@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panera</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="image/logo/Panera.png" alt="Panera Logo" />
+      </div>
+      <div class="language-switcher">
+        <span class="label en">EN</span>
+        <label class="switch">
+          <input type="checkbox" id="lang-toggle" />
+          <span class="slider round"></span>
+        </label>
+        <span class="label ar">AR</span>
+      </div>
+    </header>
+    
+    <div class="categories">
+      <a href="lent.html" class="category-item">
+        <h2 data-i18n="nav.lent">Lent</h2>
+      </a>
+      <a href="burgers.html" class="category-item">
+        <h2 data-i18n="nav.burgers">Burgers</h2>
+      </a>
+      <a href="sandwiches.html" class="category-item">
+        <h2 data-i18n="nav.sandwiches">Sandwiches</h2>
+      </a>
+      <a href="pizza.html" class="category-item">
+        <h2 data-i18n="nav.pizza">Pizza</h2>
+      </a>
+      <a href="platters.html" class="category-item">
+        <h2 data-i18n="nav.platters">Platters</h2>
+      </a>
+      <a href="biAajine.html" class="category-item">
+        <h2 data-i18n="nav.biAajine">Bl Aajine</h2>
+      </a>
+      <a href="sidesandbeverages.html" class="category-item">
+        <h2 data-i18n="nav.sidesandbeverages">Sides and beverages</h2>
+      </a>
+      <a href="tobacco.html" class="category-item">
+        <h2 data-i18n="nav.tobacco">Arguile</h2>
+      </a>
+    </div>
+
+    <button class="order-now-btn">
+      <a href="https://wa.me/96170551751">
+        Order Now
+      </a>
+    </button>
+
+    <footer>
+      <div class="footer-text">
+        <p><b data-i18n="footer.address">Address:</b></p>
+        <p><i data-i18n="footer.location">Kferdlaqos, Zgharta</i></p>
+        <p><b data-i18n="footer.tel">Tel:</b></p>
+        <p><i data-i18n="footer.phone1">06 667 997</i></p>
+        <p><i data-i18n="footer.phone2">70 551 751</i></p>
+      </div>
+      <div class="footer-logo">
+        <img src="image/logo/Panera.png" alt="Panera Logo" />
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
